@@ -2,23 +2,29 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.grinnellian/magnifica-humanitas-mcp",
   "description": "Magnifica Humanitas (Leo XIV, 2026): navigate 245 paragraphs, sections, and footnotes.",
-  "version": "0.1.0",
   "repository": {
-    "url": "https://github.com/grinnellian/magnifica-humanitas-mcp.git",
+    "url": "https://github.com/grinnellian/magnifica-humanitas-mcp",
     "source": "github"
   },
+  "version": "0.1.0",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "magnifica-humanitas-mcp",
       "version": "0.1.0",
-      "runtimeHint": "npx"
+      "runtime_hint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
     },
     {
       "registryType": "pypi",
       "identifier": "magnifica-humanitas-mcp",
       "version": "0.1.0",
-      "runtimeHint": "uvx"
+      "runtime_hint": "uvx",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
