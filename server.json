@@ -25,6 +25,15 @@
       "transport": {
         "type": "stdio"
       }
+    },
+    {
+      "registryType": "docker",
+      "identifier": "grimalkinllc/magnifica-humanitas-mcp",
+      "version": "0.1.2",
+      "runtime_hint": "docker",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
