@@ -1,36 +1,24 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.grinnellian/magnifica-humanitas-mcp",
-  "description": "Navigate Magnifica Humanitas — Pope Leo XIV's 2026 encyclical on AI and the human person. Tools for listing structure, fetching chapters/sections/paragraphs by number, resolving footnotes with linked sources, and full-text search across all 245 numbered paragraphs.",
+  "description": "Navigate Magnifica Humanitas, Pope Leo XIV's 2026 encyclical on AI. Search 245 paragraphs, fetch by section, resolve footnotes.",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/grinnellian/magnifica-humanitas-mcp.git",
     "source": "github"
   },
-  "version_detail": {
-    "version": "0.1.0"
-  },
   "packages": [
     {
-      "registry_name": "npm",
-      "name": "magnifica-humanitas-mcp",
+      "registryType": "npm",
+      "identifier": "magnifica-humanitas-mcp",
       "version": "0.1.0",
-      "runtime_hint": "npx",
-      "package_arguments": [
-        {
-          "description": "Run the MCP server",
-          "is_required": true,
-          "format": "string",
-          "value": "magnifica-humanitas-mcp",
-          "type": "positional",
-          "value_hint": "magnifica-humanitas-mcp"
-        }
-      ]
+      "runtimeHint": "npx"
     },
     {
-      "registry_name": "pypi",
-      "name": "magnifica-humanitas-mcp",
+      "registryType": "pypi",
+      "identifier": "magnifica-humanitas-mcp",
       "version": "0.1.0",
-      "runtime_hint": "uvx"
+      "runtimeHint": "uvx"
     }
   ]
 }
