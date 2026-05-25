@@ -50,6 +50,10 @@ docker build -t magnifica-humanitas-mcp .
 docker run --rm magnifica-humanitas-mcp
 ```
 
+## License
+
+The MCP server code is MIT licensed. The encyclical text is © Copyright Dicastery for Communication – Libreria Editrice Vaticana. This tool fetches that content from the Vatican's website at runtime and does not redistribute it.
+
 ## Development
 
 ```bash
