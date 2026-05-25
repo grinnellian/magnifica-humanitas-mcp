@@ -52,8 +52,7 @@ claude mcp add magnifica-humanitas -- npx -y magnifica-humanitas-mcp
 ### Docker
 
 ```bash
-docker build -t magnifica-humanitas-mcp .
-docker run --rm magnifica-humanitas-mcp
+docker run --rm grimalkinllc/magnifica-humanitas-mcp
 ```
 
 ## License
