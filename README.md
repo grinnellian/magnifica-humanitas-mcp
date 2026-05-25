@@ -16,7 +16,13 @@ Fetches the document live from the Vatican website and exposes it as structured 
 
 ## Usage
 
-### With `uvx` (no install needed)
+### With `npx` (no install needed)
+
+```bash
+npx magnifica-humanitas-mcp
+```
+
+### With `uvx` (requires [uv](https://docs.astral.sh/uv/getting-started/installation/))
 
 ```bash
 uvx magnifica-humanitas-mcp
@@ -30,17 +36,17 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 {
   "mcpServers": {
     "magnifica-humanitas": {
-      "command": "uvx",
-      "args": ["magnifica-humanitas-mcp"]
+      "command": "npx",
+      "args": ["-y", "magnifica-humanitas-mcp"]
     }
   }
 }
 ```
 
-### Claude Code (this project)
+### Claude Code
 
 ```bash
-claude mcp add magnifica-humanitas -- uvx magnifica-humanitas-mcp
+claude mcp add magnifica-humanitas -- npx -y magnifica-humanitas-mcp
 ```
 
 ### Docker
