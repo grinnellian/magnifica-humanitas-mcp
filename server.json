@@ -6,12 +6,12 @@
     "url": "https://github.com/grinnellian/magnifica-humanitas-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "magnifica-humanitas-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "runtime_hint": "npx",
       "transport": {
         "type": "stdio"
@@ -20,7 +20,7 @@
     {
       "registryType": "pypi",
       "identifier": "magnifica-humanitas-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "runtime_hint": "uvx",
       "transport": {
         "type": "stdio"

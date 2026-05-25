@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "magnifica-humanitas-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "MCP server for navigating the encyclical Magnifica Humanitas (Pope Leo XIV, 2026)"
 readme = "README.md"
 license = { text = "MIT" }

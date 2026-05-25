@@ -1,5 +1,7 @@
 # magnifica-humanitas-mcp
 
+<!-- mcp-name: io.github.grinnellian/magnifica-humanitas-mcp -->
+
 An MCP server for navigating *[Magnifica Humanitas](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html)* — Pope Leo XIV's 2026 encyclical on safeguarding the human person in the time of artificial intelligence.
 
 Fetches the document live from the Vatican website and exposes it as structured MCP tools, so any LLM client can navigate the text without loading all 245 paragraphs into context at once.
