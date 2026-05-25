@@ -1,6 +1,6 @@
 {
   "name": "magnifica-humanitas-mcp",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "MCP server for navigating Magnifica Humanitas — Pope Leo XIV's 2026 encyclical on AI and the human person",
   "mcpName": "io.github.grinnellian/magnifica-humanitas-mcp",
   "keywords": ["mcp", "mcp-server", "vatican", "encyclical", "pope-leo-xiv", "artificial-intelligence"],
